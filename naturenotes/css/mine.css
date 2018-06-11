@@ -1,0 +1,56 @@
+/* =Typography
+-----------------------------------------------------------------------------*/
+smurfbody {
+	font-family: 'Alegreya', 'Hoefler Text', Times, Serif;
+	font-size: 1.05em;
+	line-height: 1.6em;
+	background-color: #faf8f8;
+}
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+.content {
+    max-width: 1024px;
+    margin: auto;
+    margin-bottom: 64px;
+    padding: 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1.hero {
+    font-size: 30px;
+    line-height: 32px;
+    max-width: 640px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+h5 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+
+dl.bookpage dd.bookpage {
+  display: inline;
+  margin: 0;
+}
+dl.bookpage dd.bookpage:after{
+  display: block;
+  content: '';
+}
+dl.bookpage dt.bookpage{
+  display: inline-block;
+  min-width: 100px;
+}

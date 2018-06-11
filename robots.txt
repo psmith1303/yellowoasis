@@ -2,8 +2,7 @@ User-agent: *
 Disallow: /bin/
 Disallow: /images/
 Disallow: /cgi-bin/
-Disallow: /dev/
-Sitemap: http://www.petersmith.org/genes/module.php?mod=sitemap&mod_action=generate&file=sitemap.xml
+Disallow: /naturenotes/
 
 User-agent: URL_Spider_Pro
 Disallow: /
